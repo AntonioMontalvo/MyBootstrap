@@ -1,0 +1,172 @@
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+}
+
+img {
+    width: 70%;
+}
+
+label {
+    margin-right: 5px;
+}
+
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-10,
+.col-sm-12 {
+    color: rgba(255, 255, 255, 0.75);
+    ;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    text-align: center;
+}
+
+.col-sm-2 {
+    background-color: rgba(244, 67, 54, 0.5);
+}
+
+.col-sm-3 {
+    background-color: rgba(156, 39, 176, 0.5);
+}
+
+.col-sm-4 {
+    background-color: rgba(103, 58, 183, 0.5);
+}
+
+.col-sm-6 {
+    background-color: rgba(3, 169, 244, 0.5);
+}
+
+.col-sm-12 {
+    background-color: rgba(0, 150, 136, 0.5);
+}
+
+.face-nav {
+    background-color: rgba(0, 150, 136, 0.5);
+    height: 35px;
+    margin-left: 50px;
+    border-radius: 10%;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+#underline {
+    background-color: rgba(76, 175, 80, 0.5);
+    border-bottom: 2px solid aliceblue;
+    padding-bottom: 15px;
+}
+
+.left-boxes-content {
+    height: 200px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+.center-boxes-content {
+    border: 1px solid white;
+    margin-top: 10px;
+}
+
+.right-upper-box {
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 460px;
+    width: 85%;
+    background-color: rgba(181, 63, 63, 0.39);
+}
+
+.right-lower-box {
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 160px;
+    width: 85%;
+    background-color: rgba(63, 81, 181, 0.25);
+}
+#left1 {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#left2 {
+    background-color: #FF5722;
+}
+
+#left3 {
+    background-color: rgba(255, 152, 0, 0.53);
+}
+
+#center1,
+#center4 {
+    margin-top: 20px;
+    height: 65px;
+    background-color: rgba(33, 150, 243, 0.49);
+}
+
+#center2,
+#center5 {
+    height: 180px;
+    background-color: rgba(103, 58, 183, 0.54);
+}
+
+#center3 {
+    height: 100px;
+    background-color: rgba(0, 150, 136, 0.51);
+}
+
+#nav-layout {
+    background-color: orange;
+}
+
+#footer {
+    background-color: #607D8B;
+    height: 100px;
+}
+
+.traveler-headers {
+    text-align: left;
+    background-color: #FFC107;
+}
+
+.grabber {
+    background-color: rgba(255, 152, 0, 0.58);
+    padding: 20px;
+    margin-left: -14px;
+    margin-right: -14px;
+}
+
+#street-address {
+    width: 50%;
+}
+
+#city {
+    width: 70%;
+}
+
+#zip {
+    width: 40%;
+}
+
+#form-container {
+    max-width: 900px;
+}
+
+#form-background {
+    background-color: rgb(237, 176, 91);
+    height: 1400px;
+}

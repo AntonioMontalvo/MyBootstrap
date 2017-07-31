@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form Elements</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/south-street/jquery-ui.css" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <!-- Helper CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-formhelpers/2.3.0/css/bootstrap-formhelpers.min.css" integrity="sha256-v8+xOYOnVjQoSDMOqD0bqGEifiFCcuYleWkx2pCYsVU=" crossorigin="anonymous" />
+    <!-- Flags -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-formhelpers/2.3.0/img/bootstrap-formhelpers-countries.flags.png">
+    <!-- Currencies -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-formhelpers/2.3.0/img/bootstrap-formhelpers-currencies.flags.png">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav">
+        <ul class="nav nav-pills nav-justified">
+            <li class="bg-info text-info" role="presentation"><a href="grid.html">Grid System</a></li>
+            <li class="bg-info text-info" role="presentation"><a href="layout.html">Layout Samples</a></li>
+            <li class="bg-info text-info" role="presentation"><a href="carousel.html">Carousel</a></li>
+            <li class="bg-info text-info" role="presentation"><a href="#">Form Elements</a></li>
+        </ul>
+    </nav>
+    <!-- FORM ELEMENTS -->
+    <div id="form-background">
+        <div class="container-fluid" id="form-container">
+            <div class="row">
+                <div class="col-sm-12" id="nav-layout">
+                    <h1>Bootstrap - Forms - Travel Sample</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12" id="nav-layout">
+                    <h2>Visa Application</h2>
+                </div>
+                <div class="col-sm-12 traveler-headers">
+                    <h3 class="traveler-headers">Traveler's name</h3>
+                </div>
+            </div>
+            <form class="form-inline grabber">
+                <div class="form-group">
+                    <label for="first">First Name</label>
+                    <input type="text" class="form-control" id="first">
+                </div>
+                <div class="form-group">
+                    <label for="last">Middle Name</label>
+                    <input type="text" class="form-control" id="last">
+                </div>
+                <div class="form-group">
+                    <label for="middle">Last Name</label>
+                    <input type="text" class="form-control" id="middle">
+                </div>
+            </form>
+            <div class="row">
+                <div class="col-sm-12 traveler-headers">
+                    <h3 class="traveler-headers">U.S Address</h3>
+                </div>
+            </div>
+            <form class="form-inline grabber">
+                <div class="form-group">
+                    <label for="street">Street Address</label>
+                    <input type="text" class="form-control" id="street-address" >
+                </div>
+
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" class="form-control" id="city">
+                </div>
+                <div class="form-group">
+                    <label for="zip">Zip Code</label>
+                    <input type="text" class="form-control" id="zip">
+                </div>
+            </form>
+             <div class="row">
+                <div class="col-sm-12 traveler-headers">
+                    <h3 class="traveler-headers">Date of Birth</h3>
+                </div>
+            </div>
+            <form class="form-inline grabber">
+                <div class="form-group" id="street">
+                    <label for="dob">Birthdate</label>
+                    <input type="date" class="form-control" id="dob" >
+                </div>
+            </form>
+            <div class="row">
+                <div class="col-sm-12 traveler-headers">
+                    <h3 class="traveler-headers">Passport Information</h3>
+                </div>
+            </div>
+            <form class="form-inline grabber">
+                <div class="form-group">
+                    <label for="passport">Passport Number</label>
+                    <input type="number" class="form-control" id="passport">
+                </div>
+                <label for="passport">Issuing country</label>
+                <div class="bfh-selectbox bfh-countries form-group" data-country="US" data-flags="true"></div>
+            </form>
+            <div class="row">
+                <div class="col-sm-12 traveler-headers">
+                    <h3 class="traveler-headers">Purpose of visit</h3>
+                </div>
+            </div>
+            <form class="form-inline grabber">
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" >
+                        Vacation
+                    </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                    Business
+                  </label>
+                </div>
+            </form>
+            <form id="explain" class="grabber">
+                <div class="form-group">
+                <textarea  class="form-control" rows="3">Please explain the purpose of your business !</textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Form Helper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-formhelpers/2.3.0/js/bootstrap-formhelpers.js" integrity="sha256-aQQB61wWHXijuUZut9zjBbMg3rC/YjfchkQVudgpAqo=" crossorigin="anonymous"></script>
+    <script src="js/form.js" type="text/javascript"></script>
+</body>
+
+</html>
